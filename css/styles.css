@@ -68,7 +68,7 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
@@ -158,29 +158,30 @@ a:hover {
 @media screen and (max-device-width: 480px) {
   .mountain {
     position: relative;
-    width: 700px;
-    left: 140px;
+    width: 900px;
+    left: 40px;
+    margin-top: 250px;
   }
 
   .top-cloud {
     position: absolute;
     right: 90px;
-    top: 30px;
-    width: 200px;
+    top : 60px;
+    width: 300px;
   }
 
   .bottom-cloud {
     position: absolute;
-    left: 120px;
-    bottom: 250px;
-    width: 200px;
+    left: 80px;
+    bottom: 530px;
+    width: 300px;
   }
 
   h1 {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
-    font-size: 3rem;
-    margin: 10px auto 0 auto;
+    font-size: 7rem;
+    margin: 130px auto 0 auto;
   }
 
   h2 {
@@ -199,6 +200,7 @@ a:hover {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 1.5rem;
   }
 
   body {
@@ -212,8 +214,7 @@ a:hover {
   h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
-    width: 40%;
+    font-size: 2rem;
     margin: 40px auto 60px;
   }
 
@@ -237,5 +238,39 @@ a:hover {
   .copyright {
     margin: 50px auto 0 auto;
     font-size: 0.5rem;
+  }
+  p {
+    line-height: 2;
+    font-size: 0.9rem;
+  }
+  .pad {
+    margin: 20px auto 50px;
+    font-size: 0.7rem;
+  }
+  .skill-row {
+    width: 65%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .intro {
+    width: 50%;
+    margin: auto;
+    font-size: 1.7rem;
+  }
+  .pc {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .chillies {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+  }
+  .contact-message {
+    width: 65%;
+    margin: 40px auto 60px;
+    font-size: 1.5rem;
   }
 }
