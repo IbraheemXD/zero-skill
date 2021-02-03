@@ -25,6 +25,7 @@ h2 {
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.17rem;
 }
 
 p {
@@ -154,30 +155,34 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 531px) {
+@media screen and (max-device-width: 480px) {
   .mountain {
     position: relative;
-    width: 500px;
-    left: 50px;
+    width: 700px;
+    left: 140px;
   }
+
   .top-cloud {
     position: absolute;
-    right: 30px;
+    right: 90px;
     top: 30px;
-    width: 150px;
+    width: 200px;
   }
+
   .bottom-cloud {
     position: absolute;
-    left: 20px;
-    bottom: 200px;
-    width: 150px;
+    left: 120px;
+    bottom: 250px;
+    width: 200px;
   }
+
   h1 {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
     margin: 10px auto 0 auto;
   }
+
   h2 {
     margin-top: 0;
     color: #66BFBF;
@@ -187,6 +192,7 @@ a:hover {
     padding-top: 10px;
     font-weight: normal;
   }
+
   a {
     margin: 0 10px;
     text-decoration: none;
@@ -195,4 +201,41 @@ a:hover {
     font-weight: bold;
   }
 
+  body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+  }
+
+  h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .copyright {
+    margin: 50px auto 0 auto;
+    font-size: 0.5rem;
+  }
 }
