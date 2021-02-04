@@ -160,7 +160,7 @@ a:hover {
     position: relative;
     width: 900px;
     left: 40px;
-    margin-top: 250px;
+    margin-top: 320px;
   }
 
   .top-cloud {
@@ -181,17 +181,17 @@ a:hover {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
     font-size: 7rem;
-    margin: 130px auto 0 auto;
+    margin: 190px auto 0 auto;
   }
 
   h2 {
     margin-top: 0;
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-weight: normal;
+    font-weight: blod;
   }
 
   a {
@@ -200,7 +200,7 @@ a:hover {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   body {
@@ -230,7 +230,7 @@ a:hover {
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 11px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
@@ -241,11 +241,11 @@ a:hover {
   }
   p {
     line-height: 2;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .pad {
     margin: 20px auto 50px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .skill-row {
     width: 65%;
